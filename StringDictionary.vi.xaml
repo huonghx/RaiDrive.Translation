@@ -101,20 +101,20 @@
 	<system:String x:Key="Message.SelectedPath">Chọn đường dẫn</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Trùng đường dẫn</system:String>
 
-	<system:String x:Key="Message.SureDelete">Are you sure you want to permanently delete &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.SureDelete">Bạn có chắc chắn muốn xóa vĩnh viễn &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Revive RaiDrive</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive Reconnect</system:String>
-	<system:String x:Key="Message.ServiceDown">Please press OK button, RaiDrive will be alive.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Please press OK button, You must reconnect the remote storage for the changed settings to take effect.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is not ready to start, You need restart system.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Device driver is not installed on your system. You need reinstall RaiDrive.</system:String>
+	<system:String x:Key="Message.ServiceDown">Vui lòng nhấn nút OK, RaiDrive sẽ hoạt động trở lại</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Vui lòng nhấn nút OK, Bạn phải kết nối lại bộ nhớ từ xa để các cài đặt đã thay đổi có hiệu lực.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive chưa sẵn sàng để bắt đầu, Bạn cần khởi động lại hệ thống.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">Trình điều khiển thiết bị không được cài đặt trên hệ thống của bạn. Bạn cần cài đặt lại RaiDrive.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox supports Internet Explorer 10, 11. You'd better install Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Connected by RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">Up to 8 drives can be created in the current version</system:String>
-	<system:String x:Key="Message.License.Expired">Your license has been expired. You need to download the new version. Press OK to upgrade.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive cannot validate your license.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Unknown space</system:String>
-	<system:String x:Key="Message.CurrentVersion">Current version is {0}</system:String>
+	<system:String x:Key="Message.Maximum.Drive">Có thể tạo tối đa 8 ổ đĩa trong phiên bản hiện tại</system:String>
+	<system:String x:Key="Message.License.Expired">Giấy phép của bạn đã hết hạn. Bạn cần tải phiên bản mới. Nhấn OK để nâng cấp.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive không thể kiểm tra giấy phép của bạn.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Không nhận dạng dung lượng</system:String>
+	<system:String x:Key="Message.CurrentVersion">Phiên bản hiện tại là {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">The temporary folder must be a folder on the local disk drive. Network drive is not supported.</system:String>
 
 	<system:String x:Key="Message.ErrorRemoteDriveAuth">Authorization or authentication failed. Would you like to re-authenticate?</system:String>
@@ -129,7 +129,7 @@
 	<system:String x:Key="Message.OAuth.InvalidClientDescription">Your account is not managed by Active Directory. You should contact Active Directory or domain administrator or sign in as a personal account.</system:String>
 
 	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">Please check the address.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectFailure">Vui lòng kiểm tra địa chỉ.</system:String>
 	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Please double check the protocol{0} and port{1}.</system:String>
 	<system:String x:Key="WebExceptionStatus.SendFailure">Please double check the protocol{0} and port{1}.</system:String>
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Please double check the protocol{0} and port{1}.</system:String>
@@ -137,29 +137,29 @@
 	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Please check if the path{0} exists or if access is granted.</system:String>
 	<system:String x:Key="HttpStatusCode.Unauthorized">Authentication failed. Please check your account (password).</system:String>
 
-	<system:String x:Key="SocketError.TimedOut">Please check the address.</system:String>
+	<system:String x:Key="SocketError.TimedOut">Vui lòng kiểm tra địa chỉ.</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">Please check the port{0}.</system:String>
 
 	<system:String x:Key="OtherResponseCode.2">Path not found. Check the path{0}.</system:String>
 	<system:String x:Key="OtherResponseCode.3">Please double check the protocol{0} and port{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
-	<system:String x:Key="Words.Reason">Reason</system:String>
+	<system:String x:Key="Words.Reason">Lý do</system:String>
 	<system:String x:Key="Words.Delegation.Stop">Delegation aborted</system:String>
 	<system:String x:Key="Words.Drive">Drive</system:String>
 	<system:String x:Key="Words.FreeSpace">Free space</system:String>
 	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
-	<system:String x:Key="Words.Code">Code</system:String>
-	<system:String x:Key="Words.Path">Path</system:String>
+	<system:String x:Key="Words.Code">Mã</system:String>
+	<system:String x:Key="Words.Path">Đường dẫn</system:String>
 	<system:String x:Key="Words.File">File</system:String>
-	<system:String x:Key="Words.Ready">Ready</system:String>
+	<system:String x:Key="Words.Ready">Sẵn sàng</system:String>
 	<system:String x:Key="Words.Time">Time</system:String>
-	<system:String x:Key="Words.Error">Error</system:String>
+	<system:String x:Key="Words.Error">Lỗi</system:String>
 	<system:String x:Key="Words.State">State</system:String>
 	<system:String x:Key="Words.Size">Size</system:String>
-	<system:String x:Key="Words.Description">Description</system:String>
+	<system:String x:Key="Words.Description">Mô tả</system:String>
 
-	<system:String x:Key="Help.Text">HELP</system:String>
+	<system:String x:Key="Help.Text">TRỢ GIÚP</system:String>
 	<system:String x:Key="Help.Add.Drive">HERE WE GO~</system:String>
 	<system:String x:Key="Help.ServiceDown">RaiDrive Service was stopped.</system:String>
 	<system:String x:Key="Help.ServiceDown.Press">Please press button, RaiDrive will be alive.</system:String>
@@ -189,20 +189,20 @@
 
 	<!--  backup  -->
 	<system:String x:Key="Backup">Backup</system:String>
-	<system:String x:Key="Backup.Add">Add</system:String>
-	<system:String x:Key="Backup.Delete">Delete</system:String>
+	<system:String x:Key="Backup.Add">Thêm</system:String>
+	<system:String x:Key="Backup.Delete">Xóa</system:String>
 	<system:String x:Key="Backup.Start">Start</system:String>
 	<system:String x:Key="Backup.Stop">Stop</system:String>
 	<system:String x:Key="Backup.BackupNOW">Backup NOW</system:String>
 	<system:String x:Key="Backup.NOW">NOW</system:String>
-	<system:String x:Key="Backup.Save">Save</system:String>
+	<system:String x:Key="Backup.Save">Lưu</system:String>
 	<system:String x:Key="Backup.ClearLog">Clear log</system:String>
 	<system:String x:Key="Backup.DestRootFolder">Remote Folder</system:String>
 	<system:String x:Key="Backup.SourceFolders">Source Folder</system:String>
 	<system:String x:Key="Backup.Progress">Progress</system:String>
 	<system:String x:Key="Backup.AutoStart">Auto Start</system:String>
-	<system:String x:Key="Backup.LogTab.Current">Current</system:String>
-	<system:String x:Key="Backup.LogTab.All">All</system:String>
+	<system:String x:Key="Backup.LogTab.Current">Hiện tại</system:String>
+	<system:String x:Key="Backup.LogTab.All">Tất cả</system:String>
 	<system:String x:Key="Backup.LogTab.Error">Error</system:String>
 	<system:String x:Key="Backup.LogTab.Ready">Ready</system:String>
 	<system:String x:Key="Backup.LogTab.Left">Left</system:String>
